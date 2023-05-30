@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/Image 29-05-2023 at 10.18.JPG";
+// import logo from "../images/Image 29-05-2023 at 10.18.JPG";
 import { FaBars } from "react-icons/fa";
 import { TfiWrite } from "react-icons/tfi";
 import "../styles/navbar.css";
