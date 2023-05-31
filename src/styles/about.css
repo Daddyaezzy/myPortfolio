@@ -1,0 +1,94 @@
+.about-us{
+    margin-top: 100px;
+}
+
+.about-title p{
+    color: #f9c345;
+
+}
+.about-title h3{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.about-body p{
+    color: gray;
+    line-height: 30px;
+    font-size: 16px;
+
+}
+
+.about-us::after{
+    content: "";
+    display: block;
+    background-image: url(https://bertcoin.io/assets/img/bg/title_shape.svg);
+    width: 65px;
+    height: 5px;
+    margin: 7px auto 0;
+}
+
+.about-buy{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    border: 2px solid #f9c345;
+    white-space: nowrap;
+    font-size: 20px;
+    padding: 14px 35px;
+    line-height: 1;
+    position: relative;
+    overflow: hidden;
+}
+.about-buy:hover{
+    background-color: #f9c345;
+    color: #000;
+}
+
+.about-buy::before{
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-image: url(	https://bertcoin.io/assets/img/icons/btn_shape01.png);
+    width: 15px;
+    height: 51px;
+    pointer-events: none;
+}
+
+.about-buy::after{
+    content: "";
+    position: absolute;
+    /* left: -2px; */
+    top: 50%;
+    
+    transform: translateY(-50%);
+    background-image: url(https://bertcoin.io/assets/img/icons/btn_shape01.png);
+    width: 15px;
+    height: 51px;
+    pointer-events: none;
+    left: auto;
+    right: -2px;
+  
+    transform: translateY(-50%) rotate(180deg);
+}
+.about-buy button{
+   border: none;
+   color: #fff;
+   background-color: transparent;
+   font-weight: bold;
+}
+
+.about-buy button:hover{
+    color: #000;
+}

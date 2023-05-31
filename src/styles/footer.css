@@ -1,0 +1,48 @@
+.footer-logo img{
+    height: 170px;
+    width: 150px;
+    padding: 0px 0px 30px 0;
+}
+.footer{
+    text-align: left;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer-writing>p{
+    color: gray;
+}
+
+.footer-social p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    gap: 5px;
+}
+
+.footer-social>p>span{
+    color: #f9c345;
+    display: flex;
+    align-items: center;
+}
+.theFooter-social{
+    color: rgb(44, 129, 255);
+    font-size: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.copyright{
+    background-color: #0f161b;
+    padding: 30px 0 30px 0;
+}
+
+.copyright p{
+    color: white;
+    margin-bottom: 0;
+}
+
+.copyright p span{
+    color: #f9c345;
+}

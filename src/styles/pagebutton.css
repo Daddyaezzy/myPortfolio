@@ -1,0 +1,14 @@
+.page-button.visible{
+    display: block;
+    position: fixed;
+    z-index: 10;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    padding: 10px 14px 10px 14px;
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+.page-button{
+    display: none;
+}

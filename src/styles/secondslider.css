@@ -1,0 +1,84 @@
+.slider2-top{
+    border-bottom: 1px solid gray;
+}
+.slider2-logo img{
+    width: 170px;
+    height: 170px;
+}
+
+.gap-140{
+    gap: 140px;
+}
+.slider2-show{
+    position: absolute;
+    right: -450px;
+    top: 0;
+    width: 450px;
+    height: 100vh;
+    background-color: #0f161b;
+    z-index: 999;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider2-show.active {
+    transform: translateX(-100%);
+     /* Slide the component in from the right */
+  }
+
+.slider2-cancel{
+    color: #adb0bc;
+    border:1px solid #19222b;
+    padding: 6px;
+    background-color:  #19222b;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.slider2-cancel:hover{
+    color: #0f161b;
+    background-color:  #ffc107;
+
+}
+
+.navnav2-links{
+    text-align: left;
+    padding-left: 50px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 40px;
+    padding-top: 50px;
+
+}
+
+.navnav2-links li .eachLink a{
+    text-decoration: none;
+    color: #ffc107;
+    
+    
+}
+
+.social2-links>div>a{
+    font-size: 20px;
+    color: white;
+    
+    
+}
+
+.social2-links>div>a:hover{
+    color: #ffc107;
+}
+.social2-links>div{
+    
+    padding: 7px ;
+    margin-top: 15px;
+
+}
+
+.my-copyright{
+    background: #090f16;
+    padding: 30px 40px;
+    margin-top: 270px;
+}
+
+.my-copyright p{
+    color: white;
+}

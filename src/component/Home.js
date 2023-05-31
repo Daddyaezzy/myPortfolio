@@ -54,7 +54,7 @@ const Home = () => {
   }, []);
 
   return (
-    <>
+    <section className="slider-area">
       <div className="container pt-5">
         <div className="row d-flex justify-content-between">
           <div className="col-lg-6 main-writing">
@@ -65,10 +65,8 @@ const Home = () => {
             </p>
             <h2>BERTCOIN</h2>
             <div className="buy-button pt-2 d-flex flex-column gap-20">
-              <button className="button ">
-                <span>BUY NOW</span>
-              </button>
               <button className="button">BUY NOW</button>
+              <button className="button">CHART</button>
             </div>
           </div>
           <div className="col-lg-5 main-img">
@@ -96,9 +94,21 @@ const Home = () => {
           src="https://bertcoin.io/assets/img/slider/slider_shape03.png"
           alt="shape"
         />
+        <img
+          src="https://bertcoin.io/assets/img/slider/slider_shape03.png"
+          alt="shape"
+        />
+        <img
+          src="https://bertcoin.io/assets/img/slider/slider_shape03.png"
+          alt="shape"
+        />
+        <img
+          src="https://bertcoin.io/assets/img/slider/slider_shape03.png"
+          alt="shape"
+        />
       </div>
       <div className="cursor"></div>
-    </>
+    </section>
   );
 };
 

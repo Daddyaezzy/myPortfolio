@@ -1,0 +1,27 @@
+.section-title::after{
+    content: "";
+    display: block;
+    background-image: url(https://bertcoin.io/assets/img/bg/title_shape.svg);
+    width: 65px;
+    height: 5px;
+    margin: 7px auto 0;
+}
+
+.sub-title{
+    color:#f9c345;
+    font-weight: 400;
+}
+
+.section-title h3{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+}
+
+.item-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
