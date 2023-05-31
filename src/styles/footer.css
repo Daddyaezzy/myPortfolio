@@ -46,3 +46,12 @@
 .copyright p span{
     color: #f9c345;
 }
+
+@media (max-width:450px){
+   
+
+.copyright p{
+    font-size: 14px;
+    margin: 0 30px;
+}
+}
