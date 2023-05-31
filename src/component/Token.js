@@ -4,7 +4,7 @@ import "../styles/token.css";
 const Token = () => {
   return (
     <>
-      <div className="container pt-2">
+      <div className="container token">
         <div className="row d-flex justify-content-center">
           <div className="col-xl-6 col-lg-7 col-md-10">
             <div className="section-title">
