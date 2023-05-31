@@ -35,7 +35,7 @@ const PageButton = () => {
       style={{ backgroundColor: "#f9c345" }}
       onClick={scrollToTop}
     >
-      <FaArrowUp />
+      <FaArrowUp className="upIcon" />
     </button>
   );
 };
