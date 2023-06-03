@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-// import logo from "../images/Image 29-05-2023 at 10.18.JPG";
+import logo from "../images/NO JEETS TP.png";
 import { FaBars } from "react-icons/fa";
 
 import { TfiWrite } from "react-icons/tfi";
@@ -44,7 +44,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`pt-2 pb-3 ${isSticky ? "sticky" : ""} `}>
+    <header
+      className={`pt-2 pb-3 ${isSticky ? "sticky navbar-animation" : ""} `}
+    >
       <div className="first-nav">
         <div className="container navbar-container">
           <div className="row">
@@ -52,11 +54,7 @@ const Navbar = () => {
               <div className="header-divide d-flex justify-content-between align-items-center">
                 <div className="w-logo d-flex gap-50 align-items-center">
                   <Link to="/">
-                    <img
-                      className="logo1"
-                      src="https://bertcoin.io/assets/img/bertcoin.png"
-                      alt="logo"
-                    />
+                    <img className="logo1" src={logo} alt="logo" />
                   </Link>
                   {showLinks && (
                     <div className="a-links">

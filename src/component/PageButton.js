@@ -32,7 +32,7 @@ const PageButton = () => {
   return (
     <button
       className={`page-button ${isVisible ? "visible" : ""}`}
-      style={{ backgroundColor: "#f9c345" }}
+      style={{ backgroundColor: "red" }}
       onClick={scrollToTop}
     >
       <FaArrowUp className="upIcon" />

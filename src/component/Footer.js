@@ -2,6 +2,7 @@ import React from "react";
 import { FaTwitter, FaTelegram } from "react-icons/fa";
 import { AiOutlineRight } from "react-icons/ai";
 import "../styles/footer.css";
+import logo from "../images/NO JEETS TP.png";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
       <div className="container footer">
         <div className="row d-flex flex-column justify-content-left">
           <div className="footer-logo">
-            <img src="https://bertcoin.io/assets/img/bertcoin.png" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
           <div className="footer-writing">
             <p>

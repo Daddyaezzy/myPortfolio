@@ -1,4 +1,6 @@
-
+:root{
+  --is-red:red;
+}
 .main-writing{
     text-align: left;
     margin-top: 130px;
@@ -6,7 +8,7 @@
 .main-writing p{
     font-size: 20px;
     line-height: 26px;
-    color: #f9c345;
+    color: var(--is-red);
     font-weight: 800;
     letter-spacing: 1px;
 }
@@ -14,8 +16,8 @@
     content: "";
     position: absolute;
     left: -5px;
-    top: -5px;
-    background-image: url(https://bertcoin.io/assets/img/slider/text_gradient_bg.png);
+    top: -16px;
+    background-image: url(/src/images/Rectangle\ 1-2.svg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -26,7 +28,7 @@
     font-size: 120px;
     color: white;
     font-weight: 600;
-    text-shadow: 0px 5px green;
+    text-shadow: 2px 8px gray;
 }
 .main-img img{
     width: 100%;
@@ -40,7 +42,7 @@
     width: 130px;
     height: 50px;
     border: none;
-    background-color: #f9c345;
+    background-color: var(--is-red);
     color: #000;
     font-weight: 600;
     letter-spacing: 0.1px;
@@ -57,7 +59,7 @@
     position: absolute;
     width: 36px;
     height: 36px;
-    background-color: #f9c345;
+    background-color: var(--is-red);
     top: 6px;
     right: -17px;
     border-top: 2px solid white;
@@ -73,7 +75,7 @@
     position: absolute;
     width: 36px;
     height: 36px;
-    background-color: #f9c345;
+    background-color: var(--is-red);
     top: 6px;
     left: -17px;
     border-bottom: 2px solid white;
@@ -104,8 +106,8 @@
 
   /* .button::before:hover{
     background-color: white;
-    border-top: 2px solid #f9c345;
-    border-right: 2px solid #f9c345;
+    border-top: 2px solid var(--is-red);
+    border-right: 2px solid var(--is-red);
   } */
 
  
@@ -124,6 +126,7 @@
     left: 23%;
     top: 17%;
     animation-delay: 0.2s;
+    width: 3%;
   }
   .slider-shape img:nth-child(2){
     left: 29%;
@@ -166,7 +169,7 @@
     position: fixed;
     width: 10px;
     height: 10px;
-    background-color: #f9c345;
+    background-color: var(--is-red);
     border-radius: 50%;
     pointer-events: none;
     z-index: 9999;
@@ -198,7 +201,7 @@
     width: 50%;
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
     clip-path: polygon(0 0, 0 100%, 100% 100%);
-    background-color: #f9c345;
+    background-color: var(--is-red);
     height: 50px;
   }
   .slider-area::before{
@@ -209,7 +212,7 @@
     width: 50%;
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
-    background-color: #f9c345;
+    background-color: var(--is-red);
     height: 50px;
   }
 

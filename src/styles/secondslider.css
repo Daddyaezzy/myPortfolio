@@ -36,7 +36,7 @@
 
 .slider2-cancel:hover{
     color: #0f161b;
-    background-color:  #ffc107;
+    background-color:  var(--is-red);
 
 }
 
@@ -51,7 +51,7 @@
 
 .navnav2-links li .eachLink a{
     text-decoration: none;
-    color: #ffc107;
+    color: var(--is-red);
     
     
 }
@@ -64,7 +64,7 @@
 }
 
 .social2-links>div>a:hover{
-    color: #ffc107;
+    color: var(--is-red);
 }
 .social2-links>div{
     

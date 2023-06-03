@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import logo from "../images/NO JEETS TP.png";
+import tpic from "../images/NO JEET PERSON 1.png";
 
 import "../styles/home.css";
 
@@ -59,53 +61,28 @@ const Home = () => {
         <div className="row d-flex justify-content-between">
           <div className="col-lg-6 main-writing">
             <p className="position-relative">
-              BERT IS A YELLOW MUPPET CHARACTER ON THE LONG RUNNING PBS AND HBO
-              CHILDREN'S TELEVISION SHOW SESAME STREET.
+              NOJEETSALLOWED IS A COMMUNITY TOKEN AIMED AT REWARDING ALL CHADS
+              IN THE CRYPTO ECOSYSTEM.
               <span className="pseudo-element"></span>
             </p>
-            <h2>BERTCOIN</h2>
+            <h2>JEETS</h2>
             <div className="buy-button pt-2 d-flex flex-column gap-20">
               <button className="button">BUY NOW</button>
               <button className="button">CHART</button>
             </div>
           </div>
           <div className="col-lg-5 main-img">
-            <img
-              src="https://bertcoin.io/assets/img/bertcoin.png"
-              alt="bertcoin"
-            />
+            <img src={logo} alt="bertcoin" />
           </div>
         </div>
       </div>
       <div className="slider-shape">
-        <img
-          src="https://bertcoin.io/assets/img/slider/slider_shape03.png"
-          alt="shape"
-        />
-        <img
-          src="https://bertcoin.io/assets/img/slider/slider_shape03.png"
-          alt="shape"
-        />
-        <img
-          src="https://bertcoin.io/assets/img/slider/slider_shape03.png"
-          alt="shape"
-        />
-        <img
-          src="https://bertcoin.io/assets/img/slider/slider_shape03.png"
-          alt="shape"
-        />
-        <img
-          src="https://bertcoin.io/assets/img/slider/slider_shape03.png"
-          alt="shape"
-        />
-        <img
-          src="https://bertcoin.io/assets/img/slider/slider_shape03.png"
-          alt="shape"
-        />
-        <img
-          src="https://bertcoin.io/assets/img/slider/slider_shape03.png"
-          alt="shape"
-        />
+        <img src={tpic} alt="shape2" />
+        <img src={tpic} alt="shape3" />
+        <img src={tpic} alt="shape4" />
+        <img src={tpic} alt="shape5" />
+        <img src={tpic} alt="shape6" />
+        <img src={tpic} alt="shape7" />
       </div>
       <div className="cursor"></div>
     </section>

@@ -22,7 +22,7 @@
 }
 
 .footer-social>p>span{
-    color: #f9c345;
+    color: var(--is-red);
     display: flex;
     align-items: center;
 }
@@ -44,7 +44,7 @@
 }
 
 .copyright p span{
-    color: #f9c345;
+    color: var(--is-red);
 }
 
 @media (max-width:450px){

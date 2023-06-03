@@ -18,7 +18,7 @@
     top: 50%;
     right: 150px;
     font-size: 3rem;
-    color: #f9c345;
+    color: var(--is-red);
     z-index: 10;
     cursor: pointer;
     user-select:none
@@ -28,7 +28,7 @@
     top: 50%;
     left: 150px;
     font-size: 3rem;
-    color: #f9c345;
+    color: var(--is-red);
     z-index: 10;
     cursor: pointer;
     user-select:none

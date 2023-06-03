@@ -8,7 +8,7 @@
 }
 
 .sub-title{
-    color:#f9c345;
+    color:var(--is-red);
     font-weight: 400;
 }
 

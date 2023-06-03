@@ -1,3 +1,7 @@
+:root{
+    --is-red:red;
+}
+
 header{
     background-color: #182029;
     z-index: 999;
@@ -24,12 +28,12 @@ header{
 
 
 .mobile-bars{
-    border: 1px solid #ffc107;
+    border: 1px solid var(--is-red);
     padding: 10px;
     cursor: pointer;
 }
 .fabars-m{
-    color: #ffc107;
+    color: var(--is-red);
     
 }
 .bars{
@@ -51,8 +55,8 @@ header.sticky{
   color: #fff;
   font-size: 16px;
   position: relative;
-  border-top: 2px solid #6f42c1;
-  border-bottom: 2px solid #6f42c1;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
   /* overflow: hidden; */
   z-index: 99 !important;
 }
@@ -65,23 +69,40 @@ header.sticky{
   background-color: transparent;
   top: 6px;
   right: -17px;
-  border-top: 2px solid #6f42c1;
-  border-right: 2px solid #6f42c1;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
   
   transform: rotate(45deg);
  
   
 }
+
+
+.navbar-animation {
+    transition: transform 1s ease-in;
+  }
+  
+  /* .navbar-animation.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    transition: transform 0.3s ease-in-out; 
+    transform: translateY(0%);
+  } */
+
+
 .nav-button::after{
-    content: '';
+  content: '';
   position: absolute;
   width: 36px;
   height: 36px;
   background-color: transparent;
   top: 6px;
   left: -17px;
-  border-bottom: 2px solid #6f42c1;
-  border-left: 2px solid #6f42c1;
+  border-bottom: 2px solid gray;
+  border-left: 2px solid gray;
   
   transform: rotate(45deg);
   z-index: 99 !important;
@@ -90,15 +111,15 @@ header.sticky{
 
 .nav-button:hover{
     
-    border-color: #ffc107;
+    border-color: var(--is-red);
 
 }
 
 .nav-button:hover::after{
-    border-color: #ffc107;
+    border-color: var(--is-red);
 }
 .nav-button:hover::before{
-    border-color: #ffc107;
+    border-color: var(--is-red);
 }
 
 

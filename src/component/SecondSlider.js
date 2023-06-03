@@ -9,6 +9,7 @@ import {
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
+import logo from "../images/NO JEETS TP.png";
 
 const SecondSlider = ({ showNav2, setShowNav2 }) => {
   return (
@@ -16,7 +17,7 @@ const SecondSlider = ({ showNav2, setShowNav2 }) => {
       <div className={`slider2-show ${showNav2 ? "active" : ""}`}>
         <div className="slider2-top d-flex align-items-center justify-content-center gap-140 p-4">
           <div className="slider2-logo">
-            <img src="https://bertcoin.io/assets/img/bertcoin.png" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
           <div
             className={`slider2-cancel ${showNav2 ? "active" : ""}`}

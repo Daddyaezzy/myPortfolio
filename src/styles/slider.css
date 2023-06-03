@@ -13,7 +13,7 @@
 }
 .slider-show{
     position: absolute;
-    right: -250px;
+    right: -300px;
     top: 0;
     width: 300px;
     height: 100vh;
@@ -27,7 +27,7 @@
      /* Slide the component in from the right */
   }
 .slider-cancel{
-    color: #f9c345;
+    color: red;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
@@ -63,6 +63,21 @@
     margin-top: 15px;
 
 }
+
+/* @media(max-width:1000){
+
+    .slider-show{
+        position: absolute;
+        right: -950px;
+        top: 0;
+        width: 700px;
+        height: 100vh;
+        background-color: #182029;
+        z-index: 999;
+        transition: transform 1s ease-in-out;
+    }
+
+} */
 
 @media (max-width: 400px){
    .slider-show{
