@@ -10,7 +10,7 @@ const About = () => {
             <div className="col-xl-6 col-lg-7 col-md-10">
               <div className="about-title">
                 <p>KNOW ABOUT US</p>
-                <h3>BERTCOIN</h3>
+                <h3>JEETS</h3>
               </div>
               <div className="about-body">
                 <p>
