@@ -1,5 +1,7 @@
 :root{
   --is-red:red;
+  --heading-ff: 'Barlow', sans-serif;
+  --body-ff:'Poppins', sans-serif;
 }
 .main-writing{
     text-align: left;
@@ -9,6 +11,7 @@
     font-size: 20px;
     line-height: 26px;
     color: var(--is-red);
+    font-family: var(--body-ff);
     font-weight: 800;
     letter-spacing: 1px;
 }
@@ -25,10 +28,12 @@
     opacity: 0.28;
 }
 .main-writing h2{
-    font-size: 120px;
+    font-size: 65px;
+    /* font-family: var(--heading-ff); */
+    padding: 15px 0 40px 0;
     color: white;
-    font-weight: 600;
-    text-shadow: 2px 8px gray;
+    font-weight: 900;
+    text-shadow: 3px 4px gray;
 }
 .main-img img{
     width: 100%;

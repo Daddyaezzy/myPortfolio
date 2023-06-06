@@ -1,3 +1,8 @@
+:root{
+    --is-red:red;
+    --heading-ff: 'Barlow', sans-serif;
+    --body-ff:'Poppins', sans-serif;
+  }
 .footer-logo img{
     height: 170px;
     width: 150px;
@@ -11,6 +16,7 @@
 
 .footer-writing>p{
     color: gray;
+    font-family: var(--body-ff);
 }
 
 .footer-social p{
@@ -19,12 +25,14 @@
     font-weight: 500;
     display: flex;
     gap: 5px;
+    font-family: var(--body-ff);
 }
 
 .footer-social>p>span{
     color: var(--is-red);
     display: flex;
     align-items: center;
+    
 }
 .theFooter-social{
     color: var(--is-red);
@@ -43,6 +51,7 @@
 .copyright p{
     color: white;
     margin-bottom: 0;
+    font-family: var(--body-ff);
 }
 
 .copyright p span{

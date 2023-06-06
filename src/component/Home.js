@@ -1,10 +1,15 @@
 import React, { useEffect } from "react";
 import logo from "../images/NO JEETS TP.png";
 import tpic from "../images/do-not-enter.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import "../styles/home.css";
 
 const Home = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000, opacity: 0 });
+  }, []);
   useEffect(() => {
     const handleMouseMove = (event) => {
       const cursor = document.querySelector(".cursor");
@@ -73,13 +78,16 @@ const Home = () => {
       <div className="container pt-5">
         <div className="row d-flex justify-content-between">
           <div className="col-lg-6 main-writing">
-            <p className="position-relative">
+            <p data-aos="fade-up" className="position-relative">
               NOJEETSALLOWED IS A COMMUNITY TOKEN AIMED AT REWARDING ALL CHADS
               IN THE CRYPTO ECOSYSTEM.
               <span className="pseudo-element"></span>
             </p>
-            <h2>JEETS</h2>
-            <div className="buy-button pt-2 d-flex flex-column gap-20">
+            <h2 data-aos="fade-up">NOJEETSALLOWED</h2>
+            <div
+              data-aos="fade-up"
+              className="buy-button pt-2 d-flex flex-column gap-20"
+            >
               <button onClick={navigateToBuy} className="button">
                 BUY NOW
               </button>
@@ -88,7 +96,7 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="col-lg-5 main-img">
+          <div data-aos="fade-left" className="col-lg-5 main-img">
             <img src={logo} alt="bertcoin" />
           </div>
         </div>

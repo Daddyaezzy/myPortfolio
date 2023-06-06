@@ -1,6 +1,8 @@
 :root{
     --is-red:red;
-}
+    --heading-ff: 'Barlow', sans-serif;
+    --body-ff:'Poppins', sans-serif;
+  }
 
 header{
     background-color: #182029;
@@ -15,6 +17,7 @@ header{
     color: white;
     padding-left: 20px;
     font-size: 20px;
+    font-family: var(--body-ff);
 }
 .a-links a:hover{
     color: red;

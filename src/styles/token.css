@@ -1,3 +1,8 @@
+:root{
+    --is-red:red;
+    --heading-ff: 'Barlow', sans-serif;
+    --body-ff:'Poppins', sans-serif;
+  }
 .section-title::after{
     content: "";
     display: block;
@@ -10,12 +15,14 @@
 .sub-title{
     color:var(--is-red);
     font-weight: 400;
+    font-family: var(--body-ff);
 }
 
 .section-title h3{
     font-size: 50px;
     color: white;
-    font-weight: 700;
+    font-family: var(--heading-ff);
+    font-weight: 600;
     padding: 10px 0 10px 0;
 }
 

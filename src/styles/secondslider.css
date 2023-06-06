@@ -1,3 +1,8 @@
+:root{
+    --is-red:red;
+    --heading-ff: 'Barlow', sans-serif;
+    --body-ff:'Poppins', sans-serif;
+  }
 .slider2-top{
     border-bottom: 1px solid gray;
 }
@@ -59,6 +64,7 @@
 .social2-links>div>a{
     font-size: 20px;
     color: white;
+    font-family: var(--body-ff);
     
     
 }
@@ -81,4 +87,5 @@
 
 .my-copyright p{
     color: white;
+    font-family: var(--body-ff);
 }

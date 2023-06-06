@@ -1,21 +1,31 @@
+:root{
+    --is-red:red;
+    --heading-ff: 'Barlow', sans-serif;
+    --body-ff:'Poppins', sans-serif;
+  }
 .about-us{
     margin-top: 100px;
 }
 
 .about-title p{
     color: var(--is-red);
+    font-family: var(--body-ff);
 
 }
 .about-title h3{
     color: #fff;
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 45px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-family: var(--heading-ff);
+
 
 }
 .about-body p{
     color: gray;
     line-height: 30px;
     font-size: 16px;
+    font-family: var(--body-ff);
 
 }
 
@@ -40,6 +50,7 @@
     border: 2px solid var(--is-red);
     white-space: nowrap;
     font-size: 20px;
+    font-family: var(--body-ff);
     padding: 14px 35px;
     line-height: 1;
     position: relative;
