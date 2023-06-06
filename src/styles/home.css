@@ -29,7 +29,7 @@
 }
 .main-writing h2{
     font-size: 65px;
-    /* font-family: var(--heading-ff); */
+    font-family: var(--heading-ff);
     padding: 15px 0 40px 0;
     color: white;
     font-weight: 900;
@@ -238,10 +238,26 @@
         font-size: 55px;
         color: white;
         font-weight: 600;
-        text-shadow: 0px 5px green;
+        text-shadow: 0px 5px gray;
     }
 
     .main-writing{
       margin-top: 40px;
+    }
+
+  }
+
+  @media (max-width:775px){
+    .main-writing h2{
+      font-size: 40px;
+    }
+    
+  }
+  @media (max-width:350px){
+    .main-writing h2{
+      font-size: 30px;
+    }
+    .main-writing p{
+      font-size: 17px;
     }
   }

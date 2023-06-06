@@ -75,5 +75,11 @@
         width: 200px;
         height: 200px;
     }
+    .right-arrow{
+        font-size: 40px;
+    }
+    .left-arrow{
+        font-size: 40px;
+    }
   }
   

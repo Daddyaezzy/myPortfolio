@@ -35,3 +35,17 @@
 .token{
     margin-top: 170px;
 }
+
+@media(max-width:650px){
+
+.section-title h3{
+    font-size: 30px;
+}
+}
+
+@media(max-width:300px){
+
+    .section-title h3{
+        font-size: 20px;
+    }
+    }

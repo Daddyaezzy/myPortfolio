@@ -110,3 +110,23 @@
 .about-buy button:hover{
     color: #000;
 }
+
+@media(max-width:650px){
+
+    .about-title h3{
+        font-size: 30px;
+    }
+    .about-buy{
+        font-size: 17px;
+    }
+
+    }
+@media(max-width:300px){
+
+    .about-title h3{
+        font-size: 20px;
+    }
+    .about-buy{
+        font-size: 14px;
+    }
+    }
