@@ -28,13 +28,13 @@ const Slider = ({ setShowNav, showNav }) => {
         </div>
         <div className="navnav-links d-flex flex-column">
           <div className="eachLink">
-            <Link>Home</Link>
+            <Link to="/">Home</Link>
           </div>
           <div className="eachLink">
-            <Link>About Us</Link>
+            <Link to="/about">About Us</Link>
           </div>
           <div className="eachLink">
-            <Link>Contact</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
         <div className="social-links d-flex justify-content-center align-items-center gap-20">

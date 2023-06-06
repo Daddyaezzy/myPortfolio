@@ -10,7 +10,7 @@ const Address = () => {
             <div className="section-title">
               <span className="sub-title">CONTRACT ADDRESS (BSC)</span>
               <h4 className="heading contact-heading">
-                0XF52931C015A5FC51B752EE63D2BF3C70B4DD7127
+                0xf858475aA2258C3d9d124bb15B9Dd7778d68027C
               </h4>
             </div>
           </div>

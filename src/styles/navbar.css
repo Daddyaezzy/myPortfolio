@@ -16,6 +16,12 @@ header{
     padding-left: 20px;
     font-size: 20px;
 }
+.a-links a:hover{
+    color: red;
+}
+.gap-5{
+    gap: 1px;
+}
 .gap-10{
     gap: 10px;
 }
@@ -53,6 +59,7 @@ header.sticky{
   border: none;
   background-color: transparent;
   color: #fff;
+  text-decoration: dashed;
   font-size: 16px;
   position: relative;
   border-top: 2px solid gray;

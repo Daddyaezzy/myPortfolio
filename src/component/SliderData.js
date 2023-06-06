@@ -1,17 +1,22 @@
+import img1 from "../images/NO JEET PERSON 1.png";
+import img2 from "../images/NO JEETS COMIC TP.png";
+import img3 from "../images/NO JEETS COMIC.jpg";
+import img4 from "../images/NO JEETS TP.png";
+
 export const SliderData = [
   {
-    image: "https://bertcoin.io/assets/img/gallery/bertgal.webp",
+    image: img1,
   },
   {
-    image: "https://bertcoin.io/assets/img/gallery/begal.webp",
+    image: img2,
   },
   {
-    image: "https://bertcoin.io/assets/img/gallery/bergal.webp",
+    image: img3,
   },
   {
-    image: "https://bertcoin.io/assets/img/gallery/bertgal.webp",
+    image: img4,
   },
   {
-    image: "https://bertcoin.io/assets/img/gallery/begal.webp",
+    image: img3,
   },
 ];

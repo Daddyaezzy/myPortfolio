@@ -30,17 +30,17 @@ const SecondSlider = ({ showNav2, setShowNav2 }) => {
           <ul>
             <li>
               <div className="eachLink">
-                <Link>Home</Link>
+                <Link to="/">Home</Link>
               </div>
             </li>
             <li>
               <div className="eachLink">
-                <Link>About Us</Link>
+                <Link to="/about">About Us</Link>
               </div>
             </li>
             <li>
               <div className="eachLink">
-                <Link>Contact</Link>
+                <Link to="/contact">Contact</Link>
               </div>
             </li>
           </ul>

@@ -27,11 +27,13 @@
     align-items: center;
 }
 .theFooter-social{
-    color: rgb(44, 129, 255);
+    color: var(--is-red);
     font-size: 20px;
     display: flex;
     gap: 15px;
+    cursor: pointer;
 }
+
 
 .copyright{
     background-color: #0f161b;

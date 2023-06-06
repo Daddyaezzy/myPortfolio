@@ -17,6 +17,8 @@ const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   const [showNav2, setShowNav2] = useState(false);
 
+  // const navigate = useNavigate();
+
   useEffect(() => {
     const handleResize = () => {
       const windowWidth = window.innerWidth;
@@ -43,6 +45,13 @@ const Navbar = () => {
     };
   }, []);
 
+  const navigateToBuy = () => {
+    window.open(
+      "https://poocoin.app/tokens/0xf858475aa2258c3d9d124bb15b9dd7778d68027c",
+      "_blank"
+    );
+  };
+
   return (
     <header
       className={`pt-2 pb-3 ${isSticky ? "sticky navbar-animation" : ""} `}
@@ -58,9 +67,9 @@ const Navbar = () => {
                   </Link>
                   {showLinks && (
                     <div className="a-links">
-                      <Link>Home</Link>
-                      <Link>About Us</Link>
-                      <Link>Contact</Link>
+                      <Link to="/">Home</Link>
+                      <Link to="/about">About Us</Link>
+                      <Link to="/contact">Contact</Link>
                     </div>
                   )}
                 </div>
@@ -68,7 +77,10 @@ const Navbar = () => {
                 <div className="button-bar d-flex justify-content-between align-items-center gap-45">
                   <div className="d-flex gap-45 align-items-center ">
                     {showButtons && (
-                      <button className="nav-button d-flex justify-content-between align-items-center">
+                      <button
+                        onClick={navigateToBuy}
+                        className="nav-button d-flex justify-content-between align-items-center"
+                      >
                         <TfiWrite />
                         <span>Buy Now</span>
                       </button>

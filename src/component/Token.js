@@ -17,22 +17,20 @@ const Token = () => {
           <div className="col-xl-10">
             <div className="item-wrapper ">
               <div className="about-buy">
-                <button>Buy Tax 7%</button>
+                <button>Buy tax 0%</button>
               </div>
               <div className="about-buy">
-                <button>Sell Tax 7%</button>
+                <button>Sell tax 10%</button>
               </div>
               <div className="about-buy">
-                <button>5% Marketing</button>
+                <button>5% liquidity </button>
               </div>
               <div className="about-buy">
-                <button>2% Liquidity</button>
+                <button>5% marketing and charity</button>
               </div>
+
               <div className="about-buy">
-                <button>100% LP Burned</button>
-              </div>
-              <div className="about-buy">
-                <button>Ownership Renounce</button>
+                <button>Supply 100,000,000</button>
               </div>
             </div>
           </div>

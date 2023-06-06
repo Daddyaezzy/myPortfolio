@@ -5,17 +5,21 @@ import "../styles/footer.css";
 import logo from "../images/NO JEETS TP.png";
 
 const Footer = () => {
+  const toTele = () => {
+    window.open("https://t.me/nojeetsallowedbsc", "_blank");
+  };
+
   return (
     <>
       <div className="container footer">
         <div className="row d-flex flex-column justify-content-left">
-          <div className="footer-logo">
+          <div className="footer-logo ">
             <img src={logo} alt="logo" />
           </div>
           <div className="footer-writing">
             <p>
-              Bert is Ernie's best friend and roommate on Sesame Street. The
-              pair share the basement apartment at 123 Sesame Street. Contact:
+              Rewarding Chads in the crypto ecosystem. Join us for success and
+              community. Nojeetsallowed - where limits don't exist. Contact:
               Support@bertcoin.io
             </p>
             <div className="footer-social">
@@ -28,7 +32,7 @@ const Footer = () => {
                 </span>
               </p>
               <div className="theFooter-social">
-                <FaTelegram className="fs-3" />
+                <FaTelegram onClick={toTele} className="fs-3" />
                 <FaTwitter className="fs-3" />
               </div>
             </div>

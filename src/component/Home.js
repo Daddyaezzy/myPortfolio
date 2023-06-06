@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import logo from "../images/NO JEETS TP.png";
-import tpic from "../images/NO JEET PERSON 1.png";
+import tpic from "../images/do-not-enter.png";
 
 import "../styles/home.css";
 
@@ -55,6 +55,19 @@ const Home = () => {
     };
   }, []);
 
+  const navigateToBuy = () => {
+    window.open(
+      "https://poocoin.app/tokens/0xf858475aa2258c3d9d124bb15b9dd7778d68027c",
+      "_blank"
+    );
+  };
+  const navigateToChart = () => {
+    window.open(
+      "https://dexscreener.com/bsc/0xFc49F65dB02Cf7A3B38fD8c3de52731C3AC052B5",
+      "_blank"
+    );
+  };
+
   return (
     <section className="slider-area">
       <div className="container pt-5">
@@ -67,8 +80,12 @@ const Home = () => {
             </p>
             <h2>JEETS</h2>
             <div className="buy-button pt-2 d-flex flex-column gap-20">
-              <button className="button">BUY NOW</button>
-              <button className="button">CHART</button>
+              <button onClick={navigateToBuy} className="button">
+                BUY NOW
+              </button>
+              <button onClick={navigateToChart} className="button">
+                CHART
+              </button>
             </div>
           </div>
           <div className="col-lg-5 main-img">
@@ -81,6 +98,7 @@ const Home = () => {
         <img src={tpic} alt="shape3" />
         <img src={tpic} alt="shape4" />
         <img src={tpic} alt="shape5" />
+        <img src={tpic} alt="shape6" />
         <img src={tpic} alt="shape6" />
         <img src={tpic} alt="shape7" />
       </div>
