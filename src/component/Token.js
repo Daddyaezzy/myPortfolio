@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const Token = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000, opacity: 0 });
+    Aos.init({ duration: 2000 });
   }, []);
 
   return (

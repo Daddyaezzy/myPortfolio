@@ -8,7 +8,7 @@ import "../styles/home.css";
 
 const Home = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000, opacity: 0 });
+    Aos.init({ duration: 2000 });
   }, []);
   useEffect(() => {
     const handleMouseMove = (event) => {

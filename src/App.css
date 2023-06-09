@@ -9,4 +9,16 @@ body{
 }
 
 
+::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as per your preference */
+}
+
+::-webkit-scrollbar-track {
+  background: #090d10; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: red; /* Color of the scrollbar thumb */
+}
+
 

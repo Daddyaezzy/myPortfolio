@@ -1,7 +1,7 @@
 :root{
   --is-red:red;
-  --heading-ff: 'Barlow', sans-serif;
-  --body-ff:'Poppins', sans-serif;
+  --heading-ff: 'Osward', sans-serif;
+  --body-ff:'Barlow', sans-serif;
 }
 .main-writing{
     text-align: left;
@@ -253,9 +253,9 @@
     }
     
   }
-  @media (max-width:350px){
+  @media (max-width:400px){
     .main-writing h2{
-      font-size: 25px;
+      font-size: 28px;
     }
     .main-writing p{
       font-size: 17px;

@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const About = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000, opacity: 0 });
+    Aos.init({ duration: 2000 });
   }, []);
   const navigateToBuy = () => {
     window.open(
