@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import logo from "../images/logo-color.png";
 import { FaBars } from "react-icons/fa";
 
-import { TfiWrite } from "react-icons/tfi";
 import "../styles/navbar.css";
 import Slider from "./Slider";
 import SecondSlider from "./SecondSlider";
