@@ -245,6 +245,10 @@
       margin-top: 40px;
     }
 
+    .main-img{
+      padding-bottom: 50px;
+    }
+
   }
 
   @media (max-width:775px){

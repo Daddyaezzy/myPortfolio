@@ -30,6 +30,18 @@ form textarea{
     outline: none;
 }
 
+form button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: white;
+}
+
 
 @media(max-width:1000px){
     .contact-heading{
