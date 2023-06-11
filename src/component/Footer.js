@@ -2,7 +2,7 @@ import React from "react";
 import { FaTwitter, FaTelegram } from "react-icons/fa";
 import { AiOutlineRight } from "react-icons/ai";
 import "../styles/footer.css";
-import logo from "../images/NO JEETS TP.png";
+import logo from "../images/logo-color-removebg-preview.png";
 
 const Footer = () => {
   const toTele = () => {
@@ -17,17 +17,13 @@ const Footer = () => {
             <img src={logo} alt="logo" />
           </div>
           <div className="footer-writing">
-            <p>
-              Rewarding Chads in the crypto ecosystem. Join us for success and
-              community. Nojeetsallowed - where limits don't exist. Contact:
-              Support@bertcoin.io
-            </p>
+            <p>Here are my socials where i can be also be contacted</p>
             <div className="footer-social">
               <p>
                 ACTIVE
                 <span>
                   {" "}
-                  WITH US <AiOutlineRight />
+                  WITH ME <AiOutlineRight />
                   <AiOutlineRight />
                 </span>
               </p>

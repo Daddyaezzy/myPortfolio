@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-import logo from "../images/NO JEETS TP.png";
+// import logo from "../images/NO JEETS TP.png";
 import tpic from "../images/do-not-enter.png";
+import myself from "../images/tempImage97l8Qv-removebg-preview.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -60,17 +61,16 @@ const Home = () => {
     };
   }, []);
 
-  const navigateToBuy = () => {
-    window.open(
-      "https://poocoin.app/tokens/0xf858475aa2258c3d9d124bb15b9dd7778d68027c",
-      "_blank"
-    );
+  const email = "pulumbu11@gmail.com"; // Replace with the desired email address
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${email}`;
   };
-  const navigateToChart = () => {
-    window.open(
-      "https://dexscreener.com/bsc/0xFc49F65dB02Cf7A3B38fD8c3de52731C3AC052B5",
-      "_blank"
-    );
+
+  const phoneNumber = "+2349152033235"; // Replace with the desired phone number
+
+  const handlePhoneClick = () => {
+    window.location.href = `tel:${phoneNumber}`;
   };
 
   return (
@@ -79,25 +79,26 @@ const Home = () => {
         <div className="row d-flex justify-content-between">
           <div className="col-lg-6 main-writing">
             <p data-aos="fade-up" className="position-relative">
-              NOJEETSALLOWED IS A COMMUNITY TOKEN AIMED AT REWARDING ALL CHADS
-              IN THE CRYPTO ECOSYSTEM.
+              HELLO, I'M FAJOBI ANSELM I'M A FULL STACK DEVELOPER IN
+              NIGERIA,WITH A MASTERING THE ART OF INNOVATION, COMMUNICATING WITH
+              IMPACT, AND LEADING WITH EXCELLENCE
               <span className="pseudo-element"></span>
             </p>
-            <h2 data-aos="fade-up">NOJEETSALLOWED</h2>
+            <h2 data-aos="fade-up">FAJOBI ANSELM</h2>
             <div
               data-aos="fade-up"
               className="buy-button pt-2 d-flex flex-column gap-20"
             >
-              <button onClick={navigateToBuy} className="button">
-                BUY NOW
+              <button onClick={handleEmailClick} className="button">
+                EMAIL ME
               </button>
-              <button onClick={navigateToChart} className="button">
-                CHART
+              <button onClick={handlePhoneClick} className="button">
+                CALL ME
               </button>
             </div>
           </div>
           <div data-aos="fade-left" className="col-lg-5 main-img">
-            <img src={logo} alt="bertcoin" />
+            <img src={myself} alt="bertcoin" />
           </div>
         </div>
       </div>

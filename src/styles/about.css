@@ -107,6 +107,11 @@
    font-weight: bold;
 }
 
+.about-buy img{
+    width: 30px;
+    height: 30px;
+}
+
 .about-buy button:hover{
     color: #000;
 }

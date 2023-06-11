@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const Address = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000});
+    Aos.init({ duration: 2000 });
   }, []);
   return (
     <>
@@ -16,9 +16,16 @@ const Address = () => {
               <span data-aos="fade-right" className="sub-title">
                 CONTRACT ADDRESS (BSC)
               </span>
-              <h4 data-aos="fade-up" className="heading contact-heading">
-                0xf858475aA2258C3d9d124bb15B9Dd7778d68027C
-              </h4>
+            </div>
+            <div>
+              <form action="" className="d-flex flex-column">
+                <input type="text" placeholder="Your number or email" />
+                <textarea
+                  placeholder="Your message"
+                  cols="20"
+                  rows="8"
+                ></textarea>
+              </form>
             </div>
           </div>
         </div>

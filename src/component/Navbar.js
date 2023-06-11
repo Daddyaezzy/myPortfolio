@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/NO JEETS TP.png";
+import logo from "../images/logo-color.png";
 import { FaBars } from "react-icons/fa";
 
 import { TfiWrite } from "react-icons/tfi";
@@ -45,11 +45,10 @@ const Navbar = () => {
     };
   }, []);
 
-  const navigateToBuy = () => {
-    window.open(
-      "https://poocoin.app/tokens/0xf858475aa2258c3d9d124bb15b9dd7778d68027c",
-      "_blank"
-    );
+  const email = "pulumbu11@gmail.com";
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${email}`;
   };
 
   return (
@@ -68,7 +67,7 @@ const Navbar = () => {
                   {showLinks && (
                     <div className="a-links">
                       <Link to="/">Home</Link>
-                      <Link to="/about">About Us</Link>
+                      <Link to="/about">About Me</Link>
                       <Link to="/contact">Contact</Link>
                     </div>
                   )}
@@ -78,11 +77,10 @@ const Navbar = () => {
                   <div className="d-flex gap-45 align-items-center ">
                     {showButtons && (
                       <button
-                        onClick={navigateToBuy}
-                        className="nav-button d-flex justify-content-between align-items-center"
+                        onClick={handleEmailClick}
+                        className="nav-button "
                       >
-                        <TfiWrite />
-                        <span>Buy Now</span>
+                        <span>EMAIL ME</span>
                       </button>
                     )}
                     {showFabars2 && (

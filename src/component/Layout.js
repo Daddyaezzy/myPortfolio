@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "./Home";
 import About from "./About";
-import ImageSlider from "./ImageSlider";
 import { SliderData } from "./SliderData";
 import Token from "./Token";
 import Address from "./Address";
@@ -12,8 +11,8 @@ const layout = () => {
     <>
       <Home />
       <About />
-      <ImageSlider sliders={SliderData} />
       <Token />
+
       <Address />
       <PageButton />
     </>

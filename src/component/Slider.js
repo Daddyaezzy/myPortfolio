@@ -9,7 +9,7 @@ import {
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
-import logo from "../images/NO JEETS TP.png";
+import logo from "../images/logo-color-removebg-preview.png";
 
 const Slider = ({ setShowNav, showNav }) => {
   return (
