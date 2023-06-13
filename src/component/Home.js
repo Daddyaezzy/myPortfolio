@@ -79,9 +79,9 @@ const Home = () => {
         <div className="row d-flex justify-content-between">
           <div className="col-lg-6 main-writing">
             <p data-aos="fade-up" className="position-relative">
-              HELLO, I'M FAJOBI ANSELM I'M A FULL STACK DEVELOPER IN
-              NIGERIA,WITH A MASTERING THE ART OF INNOVATION, COMMUNICATING WITH
-              IMPACT, AND LEADING WITH EXCELLENCE
+              HELLO, I'M FAJOBI ANSELM I'M A WEB DEVELOPER IN NIGERIA,WITH A
+              MASTERING IN THE ART OF INNOVATION, COMMUNICATING WITH IMPACT, AND
+              LEADING WITH EXCELLENCE
               <span className="pseudo-element"></span>
             </p>
             <h2 data-aos="fade-up">FAJOBI ANSELM</h2>

@@ -20,13 +20,13 @@ const About = () => {
               </div>
               <div data-aos="fade-up" className="about-body">
                 <p>
-                  Hello, I'm Fajobi Anselm a web developer with a few years of
-                  experience. I have acquired experience that has improved my
-                  productivity in the long run, and I am working towards
-                  perfection, having worked on a few projects with friends, This
-                  has impacted my skills, problem solving ability, communication
-                  ability and ability to carry out research pertaining to what
-                  is required of a job.
+                  Hello, I'm Fajobi Anselm a Web Developer with a few years of
+                  experience and currently studying Cyber Security . I have
+                  acquired experience that has improved my productivity in the
+                  long run, and I am working towards perfection, having worked
+                  on a few projects with friends, This has impacted my skills,
+                  problem solving ability, communication ability and ability to
+                  carry out research pertaining to what is required of a job.
                 </p>
               </div>
             </div>
