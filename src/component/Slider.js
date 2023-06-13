@@ -2,13 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/slider.css";
 import { GiCrossedSwords } from "react-icons/gi";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import logo from "../images/logo-color-removebg-preview.png";
 
 const Slider = ({ setShowNav, showNav }) => {
@@ -34,33 +28,37 @@ const Slider = ({ setShowNav, showNav }) => {
             <Link to="/about">About Us</Link>
           </div>
           <div className="eachLink">
+            <Link to="/projects">Projects</Link>
+          </div>
+          <div className="eachLink">
             <Link to="/contact">Contact</Link>
           </div>
         </div>
         <div className="social-links d-flex justify-content-center align-items-center gap-20">
           <div className="each-social">
-            <Link>
-              <FaFacebook />
-            </Link>
-          </div>
-          <div className="each-social">
-            <Link>
+            <Link
+              to="https://twitter.com/daddyaezzy?s=21&t=e_FqY7sZpmg_qqmAv7HYxg"
+              target="_blank"
+            >
               <FaTwitter />
             </Link>
           </div>
           <div className="each-social">
-            <Link>
+            <Link to="https://instagram.com/daddyaezzy/" target="_blank">
               <FaInstagram />
             </Link>
           </div>
           <div className="each-social">
-            <Link>
+            <Link
+              to="https://www.linkedin.com/in/anselm-fajobi-8ab5a623b"
+              target="_blank"
+            >
               <FaLinkedin />
             </Link>
           </div>
           <div className="each-social">
-            <Link>
-              <FaYoutube />
+            <Link to="https://wa.me/+2349096571954" target="_blank">
+              <FaWhatsapp />
             </Link>
           </div>
         </div>

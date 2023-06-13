@@ -255,6 +255,9 @@
     .main-writing h2{
       font-size: 40px;
     }
+    .cursor{
+      display: none;
+    }
     
   }
   @media (max-width:400px){

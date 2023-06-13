@@ -38,7 +38,7 @@ const Address = () => {
           <div className="col-xl-6 col-lg-7 col-md-10">
             <div className="section-title">
               <span data-aos="fade-right" className="sub-title">
-                CONTRACT ADDRESS (BSC)
+                CONTRACT
               </span>
             </div>
             <div>

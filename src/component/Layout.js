@@ -4,6 +4,7 @@ import About from "./About";
 import Token from "./Token";
 import Address from "./Address";
 import PageButton from "./PageButton";
+import Projects from "./Projects";
 
 const layout = () => {
   return (
@@ -11,6 +12,7 @@ const layout = () => {
       <Home />
       <About />
       <Token />
+      <Projects />
 
       <Address />
       <PageButton />

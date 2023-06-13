@@ -54,6 +54,15 @@
     font-family: var(--body-ff);
 }
 
+.theFooter-social .each-social a{
+    color: var(--is-red);
+    
+}
+.theFooter-social .each-social a:hover{
+    color: white;
+    
+}
+
 .copyright p span{
     color: var(--is-red);
 }

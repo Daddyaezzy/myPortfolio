@@ -1,14 +1,11 @@
 import React from "react";
-import { FaTwitter, FaTelegram } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { FaTwitter, FaLinkedin, FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { AiOutlineRight } from "react-icons/ai";
 import "../styles/footer.css";
 import logo from "../images/logo-color-removebg-preview.png";
 
 const Footer = () => {
-  const toTele = () => {
-    window.open("https://t.me/nojeetsallowedbsc", "_blank");
-  };
-
   return (
     <>
       <div className="container footer">
@@ -28,8 +25,32 @@ const Footer = () => {
                 </span>
               </p>
               <div className="theFooter-social">
-                <FaTelegram onClick={toTele} className="fs-3" />
-                <FaTwitter className="fs-3" />
+                <div className="each-social">
+                  <Link
+                    to="https://twitter.com/daddyaezzy?s=21&t=e_FqY7sZpmg_qqmAv7HYxg"
+                    target="_blank"
+                  >
+                    <FaTwitter />
+                  </Link>
+                </div>
+                <div className="each-social">
+                  <Link to="https://instagram.com/daddyaezzy/" target="_blank">
+                    <FaInstagram />
+                  </Link>
+                </div>
+                <div className="each-social">
+                  <Link
+                    to="https://www.linkedin.com/in/anselm-fajobi-8ab5a623b"
+                    target="_blank"
+                  >
+                    <FaLinkedin />
+                  </Link>
+                </div>
+                <div className="each-social">
+                  <Link to="https://wa.me/+2349096571954" target="_blank">
+                    <FaWhatsapp />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
