@@ -17,10 +17,13 @@ const Address = () => {
 
     try {
       // Send form data to the server
-      const response = await axios.post("http://localhost:5000/submit-form", {
-        email,
-        message,
-      });
+      const response = await axios.post(
+        "https://myportfolio-uote.onrender.com/submit-form",
+        {
+          email,
+          message,
+        }
+      );
 
       console.log(response.data);
       // Clear form inputs
