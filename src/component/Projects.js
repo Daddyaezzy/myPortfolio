@@ -9,7 +9,7 @@ import pro5 from "../images/Screenshot 2023-06-12 at 01.24.03.png";
 import pro6 from "../images/Screenshot 2023-06-13 at 17.35.06.png";
 import pro7 from "../images/Screenshot 2023-06-13 at 20.43.31.png";
 import "../styles/project.css";
-import cvFile from "../files/My RESUME.pdf";
+import cvFile from "../files/My RESUME Fixed.pdf";
 
 const Projects = () => {
   return (
