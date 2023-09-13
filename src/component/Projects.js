@@ -7,7 +7,7 @@ import pro3 from "../images/Screenshot 2023-06-13 at 19.21.45.png";
 import pro4 from "../images/Screenshot 2023-06-13 at 19.03.42.png";
 import pro5 from "../images/Screenshot 2023-06-12 at 01.24.03.png";
 import pro6 from "../images/Screenshot 2023-06-13 at 17.35.06.png";
-import pro7 from "../images/Screenshot 2023-06-13 at 20.43.31.png";
+import pro7 from "../images/lyrics-finder.png";
 import pro9 from "../images/eazipay-screenshot.png";
 import "../styles/project.css";
 import cvFile from "../files/My RESUME Fixed.pdf";
@@ -33,7 +33,7 @@ const Projects = () => {
                       <h4>DA Tip Calculator</h4>
                       <p>
                         A vanilla Html, Css and Js project i decided to work on
-                        to create for an online resturant.
+                        to create for an online restaurant.
                       </p>
                     </div>
                   </div>
@@ -76,8 +76,8 @@ const Projects = () => {
                     <div className="project-writing">
                       <h4>DA Music Player</h4>
                       <p>
-                        A Music Player craeted with vanilla Html, Css and Js,
-                        works like an andriod, plays music from audios stored in
+                        A Music Player created with vanilla Html, Css and Js,
+                        works like an android, plays music from audios stored in
                         the songs folder.
                       </p>
                     </div>
