@@ -8,6 +8,7 @@ import pro4 from "../images/Screenshot 2023-06-13 at 19.03.42.png";
 import pro5 from "../images/Screenshot 2023-06-12 at 01.24.03.png";
 import pro6 from "../images/Screenshot 2023-06-13 at 17.35.06.png";
 import pro7 from "../images/Screenshot 2023-06-13 at 20.43.31.png";
+import pro9 from "../images/eazipay-screenshot.png";
 import "../styles/project.css";
 import cvFile from "../files/My RESUME Fixed.pdf";
 
@@ -122,6 +123,23 @@ const Projects = () => {
                       <p>
                         An E-Commerce project I created for a client, with the
                         UI of Amazon. Still in Progress...
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+                <Link
+                  to="https://eazipay-test-seven.vercel.app"
+                  target="_blank"
+                >
+                  <div className="id-project ">
+                    <div className="project-img img-fluid">
+                      <img src={pro9} alt="Eazipay Website" />
+                    </div>
+                    <div className="project-writing">
+                      <h4>Eazipay prototype</h4>
+                      <p>
+                        A Simple UI Replica of Eazipay website built with
+                        NextJS...
                       </p>
                     </div>
                   </div>
