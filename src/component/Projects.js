@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import pro1 from "../images/Screenshot 2023-06-13 at 19.13.37.png";
 import pro2 from "../images/Screenshot 2023-06-12 at 01.41.01.png";
+import pro8 from "../images/Screenshot 2023-09-13 at 2.36.04 PM.png";
 import pro3 from "../images/Screenshot 2023-06-13 at 19.21.45.png";
 import pro4 from "../images/Screenshot 2023-06-13 at 19.03.42.png";
 import pro5 from "../images/Screenshot 2023-06-12 at 01.24.03.png";
 import pro6 from "../images/Screenshot 2023-06-13 at 17.35.06.png";
 import pro7 from "../images/Screenshot 2023-06-13 at 20.43.31.png";
 import "../styles/project.css";
-import cvFile from "../files/resume.pdf";
+import cvFile from "../files/My RESUME.pdf";
 
 const Projects = () => {
   return (
@@ -25,7 +26,7 @@ const Projects = () => {
                 <Link to="https://da-tipcalculator.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
-                      <img src={pro1} alt="" />
+                      <img src={pro1} alt="Calculator App" />
                     </div>
                     <div className="project-writing">
                       <h4>DA Tip Calculator</h4>
@@ -39,13 +40,13 @@ const Projects = () => {
                 <Link to="https://da-recipies.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
-                      <img src={pro2} alt="" />
+                      <img src={pro2} alt="Recipe App" />
                     </div>
                     <div className="project-writing">
-                      <h4>DA Recipies</h4>
+                      <h4>DA Recipes</h4>
                       <p>
-                        A Food Recipie finder app, created with React, Nodejs
-                        and Api, this was done out of the idea, that i wanted to
+                        A Food Recipe finder app, created with React, Nodejs and
+                        Api, this was done out of the idea, that i wanted to
                         learn how to cook perfectly.
                       </p>
                     </div>
@@ -54,7 +55,7 @@ const Projects = () => {
                 <Link to="https://da-chatapp.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
-                      <img src={pro3} alt="" />
+                      <img src={pro3} alt="Chat App" />
                     </div>
                     <div className="project-writing">
                       <h4>DA Chat APP</h4>
@@ -69,7 +70,7 @@ const Projects = () => {
                 <Link to="https://da-musicplayer.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
-                      <img src={pro4} alt="" />
+                      <img src={pro4} alt="Music App" />
                     </div>
                     <div className="project-writing">
                       <h4>DA Music Player</h4>
@@ -81,10 +82,26 @@ const Projects = () => {
                     </div>
                   </div>
                 </Link>
+                <Link to="https://da-video.netlify.app" target="_blank">
+                  <div className="id-project ">
+                    <div className="project-img img-fluid">
+                      <img src={pro8} alt="Da Video App" />
+                    </div>
+                    <div className="project-writing">
+                      <h4>DA Video</h4>
+                      <p>
+                        A Video call Application, almost like a zoom replica.
+                        Which you can use to chat with your family and friends
+                        from far away created with React, NodeJS, Socket.IO and
+                        the likes.
+                      </p>
+                    </div>
+                  </div>
+                </Link>
                 <Link to="https://da-collections.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
-                      <img src={pro5} alt="" />
+                      <img src={pro5} alt="E-commerce website" />
                     </div>
                     <div className="project-writing">
                       <h4>DA Collections</h4>
@@ -98,7 +115,7 @@ const Projects = () => {
                 <Link to="https://ali3n-express.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
-                      <img src={pro6} alt="" />
+                      <img src={pro6} alt="E-commerce Website" />
                     </div>
                     <div className="project-writing">
                       <h4>Ali3n Express</h4>
@@ -112,7 +129,7 @@ const Projects = () => {
                 <Link to="https://da-musicmatch.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
-                      <img src={pro7} alt="" />
+                      <img src={pro7} alt="Lyrics App" />
                     </div>
                     <div className="project-writing">
                       <h4>DA Lyrics Finder</h4>
