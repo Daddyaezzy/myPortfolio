@@ -175,10 +175,14 @@ const Projects = () => {
                     </div>
                   </div>
                 </Link>
-                <div >
+                </div>
+
+                <div data-aos="fade-up" className="my-projects d-flex flex-wrap ">
+                <div className="
+                project-container">
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
-                      <video src={video1} height={350} width={450} controls muted />
+                      <video src={video1}  controls muted />
                     </div>
                     <div className="project-writing">
                       <h4>DA Coffee App</h4>
@@ -188,10 +192,11 @@ const Projects = () => {
                     </div>
                   </div>
                 </div>
-                <div >
+                <div className="
+                project-container">
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
-                      <video src={video2} height={350} width={450} controls muted />
+                      <video src={video2}  controls muted />
                     </div>
                     <div className="project-writing">
                       <h4>DA Job Searcher</h4>
@@ -201,7 +206,8 @@ const Projects = () => {
                     </div>
                   </div>
                 </div>
-                <div >
+                <div className="
+                project-container">
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
                       <video src={video3} height={350} width={450} controls muted />
@@ -214,7 +220,8 @@ const Projects = () => {
                     </div>
                   </div>
                 </div>
-                <div >
+                <div className="
+                project-container">
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
                       <video src={video4} height={350} width={450} controls muted />
@@ -227,7 +234,8 @@ const Projects = () => {
                     </div>
                   </div>
                 </div>
-                <div >
+                <div className="
+                project-container">
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
                       <video src={video5} height={350} width={450} controls muted />
@@ -240,8 +248,9 @@ const Projects = () => {
                     </div>
                   </div>
                 </div>
+                </div>
                 
-              </div>
+              
               <div className="my-cv d-flex justify-content-center   gap-10">
                 <p>
                   Link to download my Resume:{" "}
