@@ -9,6 +9,11 @@ import pro5 from "../images/Screenshot 2023-06-12 at 01.24.03.png";
 import pro6 from "../images/Screenshot 2023-06-13 at 17.35.06.png";
 import pro7 from "../images/lyrics-finder.png";
 import pro9 from "../images/eazipay-screenshot.png";
+import video1 from "../images/video/coffee-app.mov";
+import video2 from "../images/video/job-app.MP4";
+import video3 from "../images/video/weather-app.mov";
+import video4 from "../images/video/movie-app.mov";
+import video5 from "../images/video/password-generator.mov";
 import "../styles/project.css";
 import cvFile from "../files/My RESUME Fixed.pdf";
 
@@ -24,20 +29,42 @@ const Projects = () => {
                 <h3 data-aos="fade-up">SEE MY WORKS</h3>
               </div>
               <div data-aos="fade-up" className="my-projects d-flex flex-wrap ">
-                <Link to="https://da-tipcalculator.netlify.app" target="_blank">
+
+              <Link to="https://ali3n-express.netlify.app" target="_blank">
                   <div className="id-project ">
-                    <div className="project-img img-fluid ">
-                      <img src={pro1} alt="Calculator App" />
+                    <div className="project-img img-fluid">
+                      <img src={pro6} alt="E-commerce Website" />
                     </div>
                     <div className="project-writing">
-                      <h4>DA Tip Calculator</h4>
+                      <h4>Ali3n Express</h4>
                       <p>
-                        A vanilla Html, Css and Js project i decided to work on
-                        to create for an online restaurant.
+                        An E-Commerce project I created for a client, with the
+                        UI of Amazon. Still in Progress...
                       </p>
                     </div>
                   </div>
                 </Link>
+                
+                
+               
+                <Link to="https://da-video.netlify.app" target="_blank">
+                  <div className="id-project ">
+                    <div className="project-img img-fluid">
+                      <img src={pro8} alt="Da Video App" />
+                    </div>
+                    <div className="project-writing">
+                      <h4>DA Video</h4>
+                      <p>
+                        A Video call Application, almost like a zoom replica.
+                        Which you can use to chat with your family and friends
+                        from far away created with React, NodeJS, Socket.IO and
+                        the likes.
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+                
+                
                 <Link to="https://da-recipies.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
@@ -53,6 +80,7 @@ const Projects = () => {
                     </div>
                   </div>
                 </Link>
+
                 <Link to="https://da-chatapp.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
@@ -64,6 +92,55 @@ const Projects = () => {
                         A Chat Application done out of testing, it was created
                         with react, context API and Firebase Authentication.
                         Still in progress...
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+                
+               
+                <Link to="https://da-collections.netlify.app" target="_blank">
+                  <div className="id-project ">
+                    <div className="project-img img-fluid">
+                      <img src={pro5} alt="E-commerce website" />
+                    </div>
+                    <div className="project-writing">
+                      <h4>DA Collections</h4>
+                      <p>
+                        A Personal E-Commerce project created with React and
+                        Redux toolkit.
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link to="https://da-musicmatch.netlify.app" target="_blank">
+                  <div className="id-project ">
+                    <div className="project-img img-fluid">
+                      <img src={pro7} alt="Lyrics App" />
+                    </div>
+                    <div className="project-writing">
+                      <h4>DA Lyrics Finder</h4>
+                      <p>
+                        A Lyrics Finder application, created with React, Nodejs,
+                        Context API and Music Matxh API.
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+                
+                <Link
+                  to="https://eazipay-test-seven.vercel.app"
+                  target="_blank"
+                >
+                  <div className="id-project ">
+                    <div className="project-img img-fluid">
+                      <img src={pro9} alt="Eazipay Website" />
+                    </div>
+                    <div className="project-writing">
+                      <h4>Eazipay prototype</h4>
+                      <p>
+                        A Simple UI Replica of Eazipay website built with
+                        NextJS...
                       </p>
                     </div>
                   </div>
@@ -83,81 +160,87 @@ const Projects = () => {
                     </div>
                   </div>
                 </Link>
-                <Link to="https://da-video.netlify.app" target="_blank">
+              
+                <Link to="https://da-tipcalculator.netlify.app" target="_blank">
                   <div className="id-project ">
-                    <div className="project-img img-fluid">
-                      <img src={pro8} alt="Da Video App" />
+                    <div className="project-img img-fluid ">
+                      <img src={pro1} alt="Calculator App" />
                     </div>
                     <div className="project-writing">
-                      <h4>DA Video</h4>
+                      <h4>DA Tip Calculator</h4>
                       <p>
-                        A Video call Application, almost like a zoom replica.
-                        Which you can use to chat with your family and friends
-                        from far away created with React, NodeJS, Socket.IO and
-                        the likes.
+                        A vanilla Html, Css and Js project i decided to work on
+                        to create for an online restaurant.
                       </p>
                     </div>
                   </div>
                 </Link>
-                <Link to="https://da-collections.netlify.app" target="_blank">
+                <div >
                   <div className="id-project ">
-                    <div className="project-img img-fluid">
-                      <img src={pro5} alt="E-commerce website" />
+                    <div className="project-img img-fluid ">
+                      <video src={video1} height={350} width={450} controls muted />
                     </div>
                     <div className="project-writing">
-                      <h4>DA Collections</h4>
+                      <h4>DA Coffee App</h4>
                       <p>
-                        A Personal E-Commerce project created with React and
-                        Redux toolkit.
+                        A real coffee application built with React Native and Expo, using Carousel and other fun Libraries.
                       </p>
                     </div>
                   </div>
-                </Link>
-                <Link to="https://ali3n-express.netlify.app" target="_blank">
+                </div>
+                <div >
                   <div className="id-project ">
-                    <div className="project-img img-fluid">
-                      <img src={pro6} alt="E-commerce Website" />
+                    <div className="project-img img-fluid ">
+                      <video src={video2} height={350} width={450} controls muted />
                     </div>
                     <div className="project-writing">
-                      <h4>Ali3n Express</h4>
+                      <h4>DA Job Searcher</h4>
                       <p>
-                        An E-Commerce project I created for a client, with the
-                        UI of Amazon. Still in Progress...
+                        A Real Time Job searcher application, that finds jobs searched for and ability to apply, this was created using React native, Expo & Rapid API.
                       </p>
                     </div>
                   </div>
-                </Link>
-                <Link
-                  to="https://eazipay-test-seven.vercel.app"
-                  target="_blank"
-                >
+                </div>
+                <div >
                   <div className="id-project ">
-                    <div className="project-img img-fluid">
-                      <img src={pro9} alt="Eazipay Website" />
+                    <div className="project-img img-fluid ">
+                      <video src={video3} height={350} width={450} controls muted />
                     </div>
                     <div className="project-writing">
-                      <h4>Eazipay prototype</h4>
+                      <h4>DA Weather App</h4>
                       <p>
-                        A Simple UI Replica of Eazipay website built with
-                        NextJS...
+                        A Weather Application, used to search for all countries of the world weather and see following days weather, this was created using React Native, Expo & Rest API,
                       </p>
                     </div>
                   </div>
-                </Link>
-                <Link to="https://da-musicmatch.netlify.app" target="_blank">
+                </div>
+                <div >
                   <div className="id-project ">
-                    <div className="project-img img-fluid">
-                      <img src={pro7} alt="Lyrics App" />
+                    <div className="project-img img-fluid ">
+                      <video src={video4} height={350} width={450} controls muted />
                     </div>
                     <div className="project-writing">
-                      <h4>DA Lyrics Finder</h4>
+                      <h4>DA Movie</h4>
                       <p>
-                        A Lyrics Finder application, created with React, Nodejs,
-                        Context API and Music Matxh API.
+                        A Movie Application used to check for real time movies and actors. This was created using React Native, Expo, Carousel and Rest API.
                       </p>
                     </div>
                   </div>
-                </Link>
+                </div>
+                <div >
+                  <div className="id-project ">
+                    <div className="project-img img-fluid ">
+                      <video src={video5} height={350} width={450} controls muted />
+                    </div>
+                    <div className="project-writing">
+                      <h4>DA Password Generator</h4>
+                      <p>
+                        A Password Generator app used to generate Random passwords based on inputs selected. This was created using React Native, Expo and Javascript logic.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
               </div>
               <div className="my-cv d-flex justify-content-center   gap-10">
                 <p>
