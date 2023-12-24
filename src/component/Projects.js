@@ -9,6 +9,7 @@ import pro5 from "../images/Screenshot 2023-06-12 at 01.24.03.png";
 import pro6 from "../images/Screenshot 2023-06-13 at 17.35.06.png";
 import pro7 from "../images/lyrics-finder.png";
 import pro9 from "../images/eazipay-screenshot.png";
+import pro10 from "../images/flickshot-app.png";
 import video1 from "../images/video/coffee-app.mov";
 import video2 from "../images/video/job-app.MP4";
 import video3 from "../images/video/weather-app.mov";
@@ -29,8 +30,24 @@ const Projects = () => {
                 <h3 data-aos="fade-up">SEE MY WORKS</h3>
               </div>
               <div data-aos="fade-up" className="my-projects d-flex flex-wrap ">
-
-              <Link to="https://ali3n-express.netlify.app" target="_blank">
+                <Link to="https://flickshot-final.vercel.app" target="_blank">
+                  <div className="id-project ">
+                    <div className="project-img img-fluid">
+                      <img src={pro10} alt="Flickshot WebApp" />
+                    </div>
+                    <div className="project-writing">
+                      <h4>Flickshot</h4>
+                      <p>
+                        This is a TikTok like clone webApp which allows you to
+                        login, create account, interact with other users posts,
+                        post videos and more. The Tech Stack used in building
+                        this webApp are NextJs, GoogleAPI, and Sanity.io for the
+                        backend.
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+                <Link to="https://ali3n-express.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
                       <img src={pro6} alt="E-commerce Website" />
@@ -44,9 +61,7 @@ const Projects = () => {
                     </div>
                   </div>
                 </Link>
-                
-                
-               
+
                 <Link to="https://da-video.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
@@ -63,8 +78,7 @@ const Projects = () => {
                     </div>
                   </div>
                 </Link>
-                
-                
+
                 <Link to="https://da-recipies.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
@@ -96,8 +110,7 @@ const Projects = () => {
                     </div>
                   </div>
                 </Link>
-                
-               
+
                 <Link to="https://da-collections.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid">
@@ -127,7 +140,7 @@ const Projects = () => {
                     </div>
                   </div>
                 </Link>
-                
+
                 <Link
                   to="https://eazipay-test-seven.vercel.app"
                   target="_blank"
@@ -160,7 +173,7 @@ const Projects = () => {
                     </div>
                   </div>
                 </Link>
-              
+
                 <Link to="https://da-tipcalculator.netlify.app" target="_blank">
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
@@ -175,82 +188,118 @@ const Projects = () => {
                     </div>
                   </div>
                 </Link>
-                </div>
+              </div>
 
-                <div data-aos="fade-up" className="my-projects d-flex flex-wrap ">
-                <div className="
-                project-container">
+              <div data-aos="fade-up" className="my-projects d-flex flex-wrap ">
+                <div
+                  className="
+                project-container"
+                >
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
-                      <video src={video1}  controls muted />
+                      <video src={video1} controls muted />
                     </div>
                     <div className="project-writing">
                       <h4>DA Coffee App</h4>
                       <p>
-                        A real coffee application built with React Native and Expo, using Carousel and other fun Libraries.
+                        A real coffee application built with React Native and
+                        Expo, using Carousel and other fun Libraries.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="
-                project-container">
+                <div
+                  className="
+                project-container"
+                >
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
-                      <video src={video2}  controls muted />
+                      <video src={video2} controls muted />
                     </div>
                     <div className="project-writing">
                       <h4>DA Job Searcher</h4>
                       <p>
-                        A Real Time Job searcher application, that finds jobs searched for and ability to apply, this was created using React native, Expo & Rapid API.
+                        A Real Time Job searcher application, that finds jobs
+                        searched for and ability to apply, this was created
+                        using React native, Expo & Rapid API.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="
-                project-container">
+                <div
+                  className="
+                project-container"
+                >
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
-                      <video src={video3} height={350} width={450} controls muted />
+                      <video
+                        src={video3}
+                        height={350}
+                        width={450}
+                        controls
+                        muted
+                      />
                     </div>
                     <div className="project-writing">
                       <h4>DA Weather App</h4>
                       <p>
-                        A Weather Application, used to search for all countries of the world weather and see following days weather, this was created using React Native, Expo & Rest API,
+                        A Weather Application, used to search for all countries
+                        of the world weather and see following days weather,
+                        this was created using React Native, Expo & Rest API,
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="
-                project-container">
+                <div
+                  className="
+                project-container"
+                >
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
-                      <video src={video4} height={350} width={450} controls muted />
+                      <video
+                        src={video4}
+                        height={350}
+                        width={450}
+                        controls
+                        muted
+                      />
                     </div>
                     <div className="project-writing">
                       <h4>DA Movie</h4>
                       <p>
-                        A Movie Application used to check for real time movies and actors. This was created using React Native, Expo, Carousel and Rest API.
+                        A Movie Application used to check for real time movies
+                        and actors. This was created using React Native, Expo,
+                        Carousel and Rest API.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="
-                project-container">
+                <div
+                  className="
+                project-container"
+                >
                   <div className="id-project ">
                     <div className="project-img img-fluid ">
-                      <video src={video5} height={350} width={450} controls muted />
+                      <video
+                        src={video5}
+                        height={350}
+                        width={450}
+                        controls
+                        muted
+                      />
                     </div>
                     <div className="project-writing">
                       <h4>DA Password Generator</h4>
                       <p>
-                        A Password Generator app used to generate Random passwords based on inputs selected. This was created using React Native, Expo and Javascript logic.
+                        A Password Generator app used to generate Random
+                        passwords based on inputs selected. This was created
+                        using React Native, Expo and Javascript logic.
                       </p>
                     </div>
                   </div>
                 </div>
-                </div>
-                
-              
+              </div>
+
               <div className="my-cv d-flex justify-content-center   gap-10">
                 <p>
                   Link to download my Resume:{" "}
