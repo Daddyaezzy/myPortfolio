@@ -47,14 +47,14 @@ const SecondSlider = ({ showNav2, setShowNav2 }) => {
         <div className="social2-links d-flex justify-content-center align-items-center gap-20">
           <div className="each-social">
             <Link
-              to="https://twitter.com/daddyaezzy?s=21&t=e_FqY7sZpmg_qqmAv7HYxg"
+              to="https://twitter.com/bigdidiy_?s=21&t=e_FqY7sZpmg_qqmAv7HYxg"
               target="_blank"
             >
               <FaTwitter />
             </Link>
           </div>
           <div className="each-social">
-            <Link to="https://instagram.com/daddyaezzy/" target="_blank">
+            <Link to="https://instagram.com/bigdidiy/" target="_blank">
               <FaInstagram />
             </Link>
           </div>
